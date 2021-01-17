@@ -118,6 +118,7 @@ header {
 
 .responsive-nav a {
   display: block;
+  width: fit-content;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -534,14 +535,14 @@ a:hover::after {
     padding: 2.75rem 10.25rem 2rem;
   }
 
-  footer section:first-child,
-  footer section:last-child {
+  .footer-top,
+  .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  footer section:first-child {
+  .footer-top {
     margin-bottom: 1rem;
   }
 
